@@ -1,0 +1,21 @@
+{
+  "name": "banking_demo",
+  "version": "1.0.0",
+  "description": "Automating a Banking demo site using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KHWINANA/Banking_demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KHWINANA/Banking_demo/issues"
+  },
+  "homepage": "https://github.com/KHWINANA/Banking_demo#readme"
+}
