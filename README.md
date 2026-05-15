@@ -10,3 +10,12 @@ Delete customer account
 
 - Go to Bank manager login to delete the customer account
 
+Check customer balance:
+
+- Login in as a customer to check Balance
+
+Deposit money into customer account 
+
+
+
+
