@@ -17,5 +17,7 @@ Check customer balance:
 Deposit money into customer account 
 
 
+Withdrawal from account
 
+- Withdraw money from customer account and verify that the money was deducted 
 
