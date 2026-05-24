@@ -29,3 +29,12 @@ This project uses GitHub Actions to automatically run tests whenever code is pus
 
 I extended the pipeline by adding a Continuous Deployment (CD) step to automatically publish test results.
 
+## Cross-Browser Testing (Test Matrix)
+
+To improve test coverage and simulate real-world usage, I implemented a test matrix in the CI pipeline.
+
+The pipeline now runs tests across multiple browsers using a matrix strategy:
+Chromium (Chrome)
+Firefox
+WebKit (Safari)
+
