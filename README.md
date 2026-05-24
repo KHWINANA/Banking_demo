@@ -21,3 +21,11 @@ Automating a Banking demo site using Playwright
 
 - Withdraw money from customer account and verify that the money was deducted 
 
+## Continuous Integration (CI)
+
+This project uses GitHub Actions to automatically run tests whenever code is pushed or a pull request is created.
+
+## Continuous Deployment (CD)
+
+I extended the pipeline by adding a Continuous Deployment (CD) step to automatically publish test results.
+
