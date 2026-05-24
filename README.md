@@ -38,3 +38,10 @@ Chromium (Chrome)
 Firefox
 WebKit (Safari)
 
+ Why this is important:
+
+Users access banking systems from different browsers
+Prevents browser-specific bugs
+Improves reliability and quality of the application
+Reflects real-world enterprise testing practices
+
