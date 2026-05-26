@@ -49,5 +49,5 @@ Reflects real-world enterprise testing practices
 
 The test verifies navigation from the account dashboard to the transaction history page and confirms the presence of key table elements Date-Time, Amount, Transaction Type
 
-
+This ensures the transaction data is displayed correctly and improves UI test coverage
 
