@@ -6,4 +6,8 @@ test('test', async ({ page }) => {
   await page.locator('#userSelect').selectOption('1');
   await page.getByRole('button', { name: 'Login' }).click();
   await page.getByRole('button', { name: 'Transactions' }).click();
+
+  await expect(page.locator('table')).toBeVisible();
+
+  await expect(page.getByRole('columnheader', { name: 'Date-Time' })).toBeVisible();
 });
