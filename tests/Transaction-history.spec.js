@@ -10,4 +10,7 @@ test('test', async ({ page }) => {
   await expect(page.locator('table')).toBeVisible();
 
   await expect(page.getByRole('columnheader', { name: 'Date-Time' })).toBeVisible();
+  await expect(page.getByRole('columnheader', { name: 'Amount' })).toBeVisible();
+  await expect(page.getByRole('columnheader', { name: 'Transaction Type'
+    })).toBeVisible();
 });
