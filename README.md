@@ -45,3 +45,9 @@ Prevents browser-specific bugs
 Improves reliability and quality of the application
 Reflects real-world enterprise testing practices
 
+## Transaction history
+
+The test verifies navigation from the account dashboard to the transaction history page and confirms the presence of key table elements Date-Time, Amount, Transaction Type
+
+
+
