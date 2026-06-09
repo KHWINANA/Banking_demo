@@ -8,17 +8,25 @@ test('Customer can view transaction history table with correct data', async ({ p
   await page.getByRole('button', { name: 'Login' }).click();
   await page.getByRole('button', { name: 'Transactions' }).click();
 
-  // ✅ Validate table is visible
+  //  Validate table is visible
   await expect(page.locator('table')).toBeVisible();
 
-  // ✅ Validate table headers
+  //  Validate table headers
   const headers = ['Date-Time', 'Amount', 'Transaction Type'];
 
   for (const header of headers) {
     await expect(page.getByRole('columnheader', { name: header })).toBeVisible();
   }
 
-  // ✅ Validate table has at least one row (strong assertion)
+  //  Validate table has at least one row (strong assertion)
   const rows = page.locator('table tbody tr');
   await expect(rows).not.toHaveCount(0);
+
+
+//  NEW: Validate specific transaction date exists
+const targetDate = 'Jan 2, 2015 12:00:00 AM';
+await expect(page.locator('table')).toContainText(targetDate);
+
+
+
 });
