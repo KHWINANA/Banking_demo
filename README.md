@@ -56,3 +56,5 @@ Changes being made:
 Updated the test title to reflect the actual user scenario being tested. This improves readability of test reports and provides clearer business context when reviewing results.
 
 Strengthened assertions by validating that the transaction table contains actual data, not just visibility. This ensures the test fails if the table is empty or incorrect.
+
+Added validation to check that specific transaction dates appear in the table. This ensures users can correctly view and verify their transaction history.
