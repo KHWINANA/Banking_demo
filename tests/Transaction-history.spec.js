@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
+test('Customer can view transaction history table with correct columns', async ({ page }) => {
   await page.goto('https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login');
   await page.getByRole('button', { name: 'Customer Login' }).click();
   await page.locator('#userSelect').selectOption('1');
