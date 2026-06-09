@@ -51,3 +51,7 @@ The test verifies navigation from the account dashboard to the transaction histo
 
 This ensures the transaction data is displayed correctly and improves UI test coverage
 
+Changes being made:
+
+Updated the test title to reflect the actual user scenario being tested. This improves readability of test reports and provides clearer business context when reviewing results.
+
